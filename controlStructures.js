@@ -91,13 +91,10 @@ console.log(evenNumber);
 //Write two variable startRange and endRange Assign each variable a number value like (5,8) or (6,18) .
 // print a string of all the numbers in between the two values in an acceding order,
 //start and end are included example if we assign (5,8) the output will be "5, 6, 7, 8"
-let startRange = [5, 8];
-let diff=startRange[0]-startRange[1];
-let endRange = [6, 18];
-let a1 = startRange[0];
-let a2 = startRange[1];
+let startRange = 5
+let endRange = 8
 let str2 = "";
-for (let i = a1; i <= a2; i++) {
+for (let i =  startRange; i <= endRange; i++) {
   str2 += ` ${i} `;
 }
 console.log(str2);
