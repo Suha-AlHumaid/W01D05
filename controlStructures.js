@@ -48,7 +48,8 @@ var num3=5
 
 
    for (i=0; i<=20;i++) {
-       console.log("*");
+       if (i%2 == 0){
+       console.log(i);}
    }
 
    for (i=0; i<5 ; i++){
