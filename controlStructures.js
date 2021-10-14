@@ -112,3 +112,14 @@ for (let i = 5; i > 0; i--) {
 
 
 console.log("---End of tasks---");
+
+//extra find GCD of two positive numbers
+let no1 =9;
+let no2 =6;
+let gcd=0;//init
+while(no2!=0) {//psitive or not
+gcd = no2; 
+no2 = no1 % no2;
+no1 = no2;
+}
+console.log(gcd);
