@@ -1,4 +1,4 @@
-// FirstTask
+// First Task
 let language = "JavaScript";
 let score = 10;
  console.log(language);
