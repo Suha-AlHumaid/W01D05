@@ -1,4 +1,4 @@
-var num1 = 1
+var num1= 1
 var num2 =4
 var num3=5
 
@@ -23,9 +23,9 @@ var num3=5
             console.log(`(${num1} , ${num2} , ${num3})`);
            }
    }
-   else if (y>x && y >z)
+   else if (num2>num1 && num2 >num3)
    {
-           if (x>z)
+           if (num1>num3)
            {
             console.log(`(${num2} , ${num3} , ${num1})`);
            }
@@ -34,25 +34,26 @@ var num3=5
             console.log(`(${num2} , ${num3} , ${num1})`);
            }
    }
-   else if (z>x && z>y)
+   else if (num3>num1 && num3>num2)
    {
-           if (x>y)
+           if (num1>num2)
            {
-            console.log(`(${num3} , ${num2} , ${num2})`);
+            console.log(`(${num3} , ${num2} , ${num1})`);
            }
            else
            {
-               console.log(`(${num3} , ${num2} , ${num2})`);
+               console.log(`(${num3} , ${num2} , ${num1})`);
            }
    }  
 
 
    for (i=0; i<=20;i++) {
-       console.log(i + ",");
+       console.log("*");
    }
 
-   for (i=0; i<5 ; i++ ){
+   for (i=0; i<5 ; i++){
+   
     for (i=5; i<0 ; i--){
-       console.log("*");
+    console.log("*");
    }
 }

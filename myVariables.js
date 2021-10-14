@@ -9,7 +9,7 @@ let score = 10;
 area = length*width;
 console.log(`The area of the rectangle is ${area}`);
 
-let num1 =10
-let num2 =20
-console.log(num1%num2);
+let num11 =10
+let num22 =20
+console.log(num11%num22);
 
